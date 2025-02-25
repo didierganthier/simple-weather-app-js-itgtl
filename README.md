@@ -1,13 +1,11 @@
 <div id="top"></div>
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#leaderboard">About The Project</a>
+      <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -27,65 +25,56 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-# Leaderboard
+# Weather App
 
-The Leaderboard list app is a JavaScript project which uses webpack and ES6 features, notably modules. Developed from wireframe and consumes the Leaderboard API using JavaScript async and await.
+The Weather App is a simple JavaScript project that allows users to get the current weather information for a specified city. It uses the OpenWeatherMap API to fetch weather data and displays it in a user-friendly format.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Preview 📸
-<img width="800" alt="Leaderboard Preview Screenshot" src="https://img.freepik.com/free-vector/leaderboard-with-abstract-background_52683-51485.jpg?size=626&ext=jpg">
+<img width="800" alt="Weather App Preview Screenshot" src="https://img.freepik.com/free-vector/weather-forecast-concept-illustration_114360-1505.jpg?size=626&ext=jpg">
 
 
 ### Built With
 
-- HTML, CSS, Javascript
-- No Styling frameworks used
-- Github
-- Webpack
-- Gitflow
+- HTML, CSS, JavaScript
+- No styling frameworks used
+- GitHub
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Live Demo
 
-- Click [here](https://debbymiressa.github.io/Leaderboard/) to get started with a live demo
+- Click here to get started with a live demo
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 **Instructions on how to access my project locally:** 
-- Enter this url: [https://github.com/DebbyMiressa/Leaderboard](https://github.com/DebbyMiressa/Leaderboard) in your web browser.
+- Enter this URL: https://github.com/didierganthier/simple-weather-app-js-itgtl in your web browser.
 - Clone it to your local machine.
-- Once the download is complete you will be able to access my project locally . 
+- Once the download is complete, you will be able to access my project locally. 
 
 ### Prerequisites
 
-If you need to run my project locally follow the steps below :
+If you need to run my project locally, follow the steps below:
 * Have git installed. (For version control)
-* Have text editor installed. (Preferablly VSCode)
+* Have a text editor installed. (Preferably VSCode)
 * Have node installed.
-* Have npm package manager Installed.
-* Have webpack installed. (module bundler)
-* Have CSS,HTML & JS Linters installed and configured. For further information, visit [this link](https://github.com/microverseinc/linters-config/blob/master/README.md) to get better understanding on each linters used on this project.
-* Properly use ES6 Syntax and ES6 Modules throughout the project.
+* Have npm package manager installed.
 
 ### Installation
 
-1. First, Initialize NPM Package Manageer
+1. Clone the repo
 ```sh
-npm init -y
+git clone https://github.com/didierganthier/simple-weather-app-js-itgtl.git
 ```
-2. Install Webpack, Required plugin(s), Style/CSS Loader and Webpack-dev-server
+2. Install NPM packages
 ```sh
-npm install webpack webpack-cli --save-dev
-npm install --save-dev html-webpack-plugin
-npm install --save-dev style-loader css-loader
-npm install --save-dev webpack-dev-server
+npm install
 ```
-3. Start running build
+3. Start the project
 ```sh
-npm build run
 npm start
 ```
 
@@ -96,7 +85,9 @@ npm start
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-_This will be updated when the project is finished._
+1. Open the `index.html` file in your browser.
+2. Enter the name of the city you want to get the weather information for.
+3. Click the "Get Weather" button to fetch and display the weather data.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -104,7 +95,7 @@ _This will be updated when the project is finished._
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions 🤝 are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions 🤝 are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a ⭐️! Thanks again!
@@ -124,14 +115,13 @@ Don't forget to give the project a ⭐️! Thanks again!
 
 👤 Didier Ganthier
 
-- ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) [@didierganthier](https://github.com/didierganthier)
+- GitHub @didierganthier
 
-- ![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white) [@didierganthier](https://twitter.com/didierganthier_)
-- ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) [@ddidierganthier](https://www.linkedin.com/in/didierganthier)
+- Twitter @didierganthier
+- LinkedIn @ddidierganthier
 
 ## Acknowledgments
 
 ## License
 
-This project is [MIT](./MIT.md)  📝 licensed.
-
+This project is MIT  📝 licensed.
